@@ -141,11 +141,50 @@
         }
 
         .case-study {
-            margin-bottom: 2rem;
-            padding: 1.5rem;
-            background: #f8f9fa;
-            border-radius: 8px;
-        }
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.case-study h3 {
+    margin-bottom: 1.5rem;
+}
+
+.case-study-content {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.case-thumbnail {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.case-details {
+    flex: 1;
+}
+
+.case-details ul {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.case-details li {
+    margin-bottom: 0.8rem;
+}
+
+.case-study a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.case-study a:hover {
+    text-decoration: underline;
+}
 
         .industry-list {
             display: grid;
@@ -294,52 +333,63 @@
             </ul>
         </div>
     </div>
-
     <h2>Case Studies</h2>
+
     <div class="case-study">
         <h3><a href="https://tickpick.com">TickPick</a> (Consumer Marketplace)</h3>
-        <ul>
-            <li>💰 Purchase CVR: 3.4% → 5.25% on app & web</li>
-            <li>App sign-up rate: 50% → 70% (1.5x increase)</li>
-            <li>Push enablement: 42% → 57% of unique users</li>
-            <li><a href="https://docs.google.com/document/d/1NvYjt9ovyOZrS_z8jK_RJ2AszZ4f_D-OUN7Cy2Heq24/edit?usp=sharing">More Results</a></li>
-        </ul>
+        <div class="case-study-content">
+            <img src="tickpick.jpeg" alt="TickPick" class="case-thumbnail"/>
+            <div class="case-details">
+                <ul>
+                    <li>💰 Purchase CVR: 3.4% → 5.25% on app & web</li>
+                    <li>App sign-up rate: 50% → 70% (1.5x increase)</li>
+                    <li>Push enablement: 42% → 57% of unique users</li>
+                    <li><a href="https://docs.google.com/document/d/1NvYjt9ovyOZrS_z8jK_RJ2AszZ4f_D-OUN7Cy2Heq24/edit?usp=sharing">More Results</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-
+    
     <div class="case-study">
         <h3><a href="https://www.figma.com/design/jDxpBpbO1W5ZxVT5EkNBRU/Nokt?node-id=248-4&t=vMkYlOoODw9ENUq5-1">NOKT</a> (Ecommerce)</h3>
-        <ul>
-            <li>Implemented conversion-focused e-commerce UI</li>
-            <li>Delivered comprehensive UX/UI design</li>
-        </ul>
+        <div class="case-study-content">
+            <img src="nokt.png" alt="NOKT" class="case-thumbnail"/>
+            <div class="case-details">
+                <ul>
+                    <li>Implemented conversion-focused e-commerce UI</li>
+                    <li>Delivered comprehensive UX/UI design</li>
+                </ul>
+            </div>
+        </div>
     </div>
-
+    
     <div class="case-study">
         <h3><a href="https://www.figma.com/design/8YhddBMeChTo4d1kjD71Te/Event-Technologies-Group?node-id=39-10982&t=8LHou9RBiKoXewcv-1">Event Tech Group</a> (SaaS)</h3>
-        <ul>
-            <li>Complete platform modernization</li>
-            <li>Brand redesign and implementation</li>
-            <li>Competitor analysis and positioning</li>
-            <li>Optimized lead generation system</li>
-        </ul>
+        <div class="case-study-content">
+            <img src="eventtech.png" alt="Event Tech Group" class="case-thumbnail"/>
+            <div class="case-details">
+                <ul>
+                    <li>Complete platform modernization</li>
+                    <li>Brand redesign and implementation</li>
+                    <li>Competitor analysis and positioning</li>
+                    <li>Optimized lead generation system</li>
+                </ul>
+            </div>
+        </div>
     </div>
-
+    
     <div class="case-study">
         <h3><a href="https://www.lucashazan.com/platables">Platables</a> (Ecommerce)</h3>
-        <ul>
-            <li>Created modern DTC pet food brand presence</li>
-            <li>Developed brand identity and messaging</li>
-            <li>Optimized checkout flow</li>
-            <li>Implemented conversion-focused e-commerce UI</li>
-        </ul>
+        <div class="case-study-content">
+            <img src="platables.png" alt="Platables" class="case-thumbnail"/>
+            <div class="case-details">
+                <ul>
+                    <li>Created modern DTC pet food brand presence</li>
+                    <li>Developed brand identity and messaging</li>
+                    <li>Optimized checkout flow</li>
+                    <li>Implemented conversion-focused e-commerce UI</li>
+                </ul>
+            </div>
+        </div>
     </div>
-
-    <div class="contact">
-        <h2>Let's Accelerate Your Growth</h2>
-        <p>Email: <a href="mailto:Lucashazan@gmail.com">Lucashazan@gmail.com</a></p>
-        <p>Cell: <a href="tel:646-344-0521">(646) 344-0521</a></p>
-        <p><a href="https://www.linkedin.com/in/lucashazan">LinkedIn</a></p>
-    </div>
-</body>
-
 </html>
